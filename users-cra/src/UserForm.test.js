@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
 import UserForm from "./UserForm";
 
-test("it shows 2 imputs and a button", () => {
+test("it shows 2 inputs and a button", () => {
   render(<UserForm />);
 
   const inputs = screen.getAllByRole(`textbox`);
